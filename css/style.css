@@ -10,20 +10,37 @@ img {
     max-width: 100%;
 }
 
-
 .page-header {
-
   height: 8rem;
   background-color: gray;
 }
 
-.main-nav{
+main{
+  height: 20rem;
+  background-color: yellow;
+}
+
+
+
+
+.page-footer{
+  position:relative;
+  height: 4rem;
+  background-color: gray;
+
+}
+
+.main-nav {
+  position: absolute;
+  top:0;
+  right:4rem;
   display:flex;
   font-size: 20px;
   font-family: Arial;
   letter-spacing: 0px;
   color: #FFFFFF;
 }
+
 
 .main-nav li {
   margin-left: 36px;
