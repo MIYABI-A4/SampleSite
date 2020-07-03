@@ -59,7 +59,7 @@ nav{
   position: relative;
 }
 
-.menu {
+.mmain-nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -68,19 +68,19 @@ nav{
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
 }
 
-.menu li {
+.main-nav li {
   height: 3rem;
   border-bottom: solid 1px #AAA;
 }
 
-.menu a {
+.main-nav a {
   display: block;
   padding: 0.75rem;
   text-align: center;
   color: #FFF;
 }
 
-.menu a:hover {
+.main-nav a:hover {
   background-color: #222;
 }
 
