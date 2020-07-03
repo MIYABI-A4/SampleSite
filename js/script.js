@@ -1,7 +1,10 @@
 $(function(){
 
+  $(".menu").hide();
+
   $(".navButton").click( function(){
-      $(".menu").toggleClass('isOpen');
+    $(".navButton").toggleClass('isOpen');
+    $(".menu").slideToggle();
   });
 
 });
