@@ -109,6 +109,9 @@ a {
 #home{
   position: relative;
   background-image: url(../images/13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
   min-height: 100vh;
 }
 
@@ -157,10 +160,18 @@ aside article {
 
 footer{
  position: absolute;
- padding-top: 25rem;
+ padding-top: 36rem;
+ padding-left: 55rem;
+ width: auto;
  display: flex;
-
 }
+
+footer div{
+  background-color: #999999
+  top: 700px;
+  height: 20px
+}
+
 
 .page-footer {
   position: absolute;
