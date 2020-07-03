@@ -5,6 +5,96 @@ html {
     margin: 0;
 }
 
+header {
+  position: relative;
+  background-color: #333;
+  height: 6rem;
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+}
+
+h1 {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.navButton {
+  position: absolute;
+  top: 2.25rem;
+  right: 2rem;
+  z-index: 999;
+}
+
+.navButton-line {
+  position: relative;
+  display: block;
+  height: 2px;
+  width: 30px;
+  background: #BBB;
+  transition: ease .5s;
+}
+
+.navButton-line:nth-child(1) { top: 0; }
+.navButton-line:nth-child(2) { margin: 8px 0; }
+.navButton-line:nth-child(3) { top: 0; }
+
+.navButton.isOpen .navButton-line:nth-child(1) {
+  top: 10px;
+  transform: rotate(135deg);
+}
+
+.navButton.isOpen .navButton-line:nth-child(2) {
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+.navButton.isOpen .navButton-line:nth-child(3) {
+  top: -10px;
+  transform: rotate(-135deg);
+}
+
+nav{
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(64,64,64,.7);
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+}
+
+.menu li {
+  height: 3rem;
+  border-bottom: solid 1px #AAA;
+}
+
+.menu a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  color: #FFF;
+}
+
+.menu a:hover {
+  background-color: #222;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 body {
   margin: 0;
   padding: 0;
