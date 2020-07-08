@@ -8,13 +8,13 @@ html {
 header {
   position: relative;
   background-color: #333;
-  height: 4rem;
+  height: 3rem;
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
 }
 
 h1 {
   position: absolute;
-  top: 0.25rem;
+  padding-top: 0.25px;
   left: 2rem;
   font-size: 1.25rem;
   color: white;
@@ -160,17 +160,18 @@ aside article {
 
 footer{
  position: absolute;
- padding-top: 36rem;
- padding-left: 55rem;
- width: auto;
+ margin-top: 36.55rem;
  display: flex;
+ background: #333;
+ height: 25;
+ width: 90rem;
 }
 
-footer div{
-  background-color: #999999
-  top: 700px;
-  height: 20px
-}
+/*footer ul{
+  background: #222;
+　padding: 40px;
+  width: 50rem;
+}*/
 
 
 .page-footer {
