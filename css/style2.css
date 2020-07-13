@@ -5,12 +5,6 @@ html {
     margin: 0;
 }
 
-/*header {
-  position: relative;
-  background-color: #333;
-  height: 3rem;
-  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
-}*/
 
 h1 {
   position: absolute;
@@ -134,7 +128,7 @@ a {
 
 #home{
   position: relative;
-  background-image: url(../images/13.jpg);
+  background-image: url(../images/background1.png);
   background-size: cover;
   min-height: 100vh;
 }
@@ -150,7 +144,7 @@ a {
 
 /********* main ***********/
 
-/*main {
+main {
   display: flex;
   flex-direction: row;
 }

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-  <head>
-      <meta charset = "UTF-8">
-      <title>Sample Page</title>
-      <link rel="stylesheet" href="css/style.css">
-  </head>
+<head>
+    <meta charset = "UTF-8">
+    <title>Sample Page</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
 
  <body>
 
@@ -15,16 +18,23 @@
 
       <h1>RAKUGAKI</h1>
 
-      <nav>
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="works.html">WORKS</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-      </nav>
-
-    </header>
+      <div class="cp_cont">
+      	<div class="cp_offcm01">
+      		<input type="checkbox" id="cp_toggle01">
+      		<label for="cp_toggle01"><span></span></label>
+      		<div class="cp_menu">
+      		<ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="works.html">WORKS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+      		</ul>
+      		</div>
+      	</div>
+      	<div class="cp_contents">
+      		</div>
+      	</div>
+      </div>
 
     <main>
 
@@ -37,20 +47,6 @@
             今は空いた時間でたまにではありますが紙媒体やデジタルを中心に色々描いています。
           </p>
         </article>
-
-        <article>
-          <p>
-          </p>
-        </article>
-
-      </section>
-
-      <aside>
-        <article>
-          <p>
-          </p>
-        </article>
-      </aside>
 
    </main>
 
@@ -65,7 +61,6 @@
      <p>2020 RAKUGAKI MASATO OMURA</p>
    </footer>
 
- </div><!-- /#home -->
 
  </body>
 
