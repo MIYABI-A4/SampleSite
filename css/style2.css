@@ -124,6 +124,12 @@ a {
     text-decoration: none;
 }
 
+header {
+  position: relative;
+  background-image: url(../images/sample1.jpg);
+  background-size: cover;
+}
+
 /********* container ***********/
 
 #home{
@@ -141,6 +147,7 @@ a {
   background-size: cover;
 
 }
+
 
 /********* main ***********/
 
